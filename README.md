@@ -4,7 +4,7 @@
 
 # URL to Title
 
-This Chrome extension modifies the title of a web page by replacing it with, or appending, the page's URL. This provides an alternative way to view page information in your browser tabs.
+This extension modifies the title of a web page by replacing it with, or appending, the page's URL. It works both in chrome and firefox browsers.
 
 ## How It Works
 
