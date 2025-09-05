@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL in Title Options</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+    <div class="container">
+        <h3>Display Mode</h3>
+        <div class="options-grid">
+            
+            <label class="option-card" for="mode-replace">
+                <input type="radio" id="mode-replace" name="titleOption" value="replace">
+                <div class="card-content">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16.49,11.53,14,9.04V11H10V8H7.04l2.49-2.49L8.47,4.47,4,8.94l4.47,4.47,1.06-1.06L7.04,10H10v3h4v1.96l2.49-2.49,1.06,1.06L20,8.94l-4.47-4.47Z"/></svg>
+                    <h4>Replace</h4>
+                    <p>Show URL only.</p>
+                </div>
+            </label>
+
+            <label class="option-card" for="mode-append">
+                <input type="radio" id="mode-append" name="titleOption" value="append">
+                <div class="card-content">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20,7H4V5H20M20,11H4V9H20M4,15h9v-2H4M4,19h9v-2H4V17Z M15,13v6h2v-6h-2Z"/></svg>
+                    <h4>Append</h4>
+                    <p>Show Title + URL.</p>
+                </div>
+            </label>
+
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

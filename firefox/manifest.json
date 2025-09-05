@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "URL in Title",
+  "version": "1.1",
+  "description": "Sets the browser tab title to the page's URL, with options to replace or append.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png"
+    }
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
