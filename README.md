@@ -4,6 +4,9 @@
 
 # URL to Title
 
+[![Buy Me A Coffee](https://img.shields.io/badge/☕-Buy%20me%20a%20coffee-yellow?style=flat-square)](https://www.buymeacoffee.com/kur0)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-blue?style=flat-square&logo=ko-fi)](https://ko-fi.com/N4N41M2YUG)  
+
 This extension modifies the title of a web page by replacing it with, or appending, the page's URL. It works both in chrome and firefox browsers.
 
 ## How It Works
